@@ -1,42 +1,14 @@
-# Notas de aula
+# Notas projeto
+Meu projeto é um app de fotos, onde se tem 4 páginas.
 
-Curso: Tecnologia em Sistemas para Internet
+HOME
+    É apresentado as fotos mais recentes
 
-Disciplina: Programação para Dispositivos Móveis I (2024-1)
+Galeria
+    É apresentado todas fotos do usuário
 
-Professor: Vinícius Maeda
+Perfil
+    É mostrado todos dados do usuário, como nome, email, telefone e local
 
----
-
-### Comandos utilizados na aula
-
-#### Criar um projeto React Native
-```
-npx create-expo-app --template blank meu-app-saude
-```
-
-#### Instalar o React Navigation
-```
-npm install @react-navigation/native
-```
-
-#### Instalar as dependências do React Navigation
-```
-npx expo install react-native-screens react-native-safe-area-context
-```
-
-#### Instalar o Bottom Tab Navigator
-```
-npm install @react-navigation/bottom-tabs
-```
-
-#### Iniciar o projeto
-```
-npx expo start 
-```
-
-#### Iniciar o projeto no Android
-```
-npx expo start --android
-```
-
+Configurações
+    É mostrado as opções que o usuário pode acessar como minha conta, notificações, privacidade, ajuda e sair.

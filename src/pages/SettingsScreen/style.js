@@ -1,15 +1,37 @@
-import { StyleSheet } from 'react-native';
+import { StyleSheet } from "react-native";
 
 export const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 8,
-    paddingTop: 20,
-    alignItems: 'center',
-    backgroundColor: '#fff',
+    alignItems: "center",
+    justifyContent: "center",
+    padding: 16,
   },
   title: {
-    fontSize: 24,
+    fontSize: 42,
+    fontWeight: "bold",
+    marginBottom: 24,
+    color: "#fff",
+  },
+  settingsContainer: {
+    width: "100%",
+    padding: 16,
+  },
+  settingItem: {
+    flexDirection: "row",
+    alignItems: "center",
+    padding: 12,
+    borderBottomWidth: 1,
+    borderBottomColor: "#ddd",
+  },
+  icon: {
+    width: 42,
+    height: 42,
+    marginRight: 16,
+    borderRadius: 10,
+  },
+  settingText: {
+    fontSize: 18,
+    color: "#fff",
   },
 });
-
