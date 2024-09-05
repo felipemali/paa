@@ -7,6 +7,10 @@ export const styles = StyleSheet.create({
     justifyContent: "center",
     padding: 16,
   },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
+  },
   title: {
     fontSize: 42,
     fontWeight: "bold",
